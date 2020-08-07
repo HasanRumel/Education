@@ -1,0 +1,382 @@
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Dosis', sans-serif;*/
+body{
+	font-family: 'Dosis', sans-serif;
+	background-image: url(../images/bg.png);
+}
+/*header start*/
+header{
+	background-color: #ffd338;
+}
+.manu ul li a{
+	font-size: 18px;
+	font-weight: 700;
+	color: white !important;
+	padding: 0 20px !important;
+	border-radius: 20px;
+	transition: 0.4s ease;
+	-webkit-transition: 0.4s ease;
+	-moz-transition: 0.4s ease;
+}
+.manu ul li a:hover{
+	background-color: #f05c5c;
+}
+.btn-user, .btn-search{
+	color: #fff;
+}
+.btn-user:hover, .btn-search:hover{
+	color: #f05c5c;
+}
+.btn-user:focus, .btn-search:focus{
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgb(241 92 92);
+}
+.s-d-menu{
+	padding: 0 !important;
+	top: 180%;
+	left: -155px;
+	min-width: 197px !important;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url(../images/img.png);
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.b-contant img{
+	margin-top: 175px;
+}
+.b-contant h1{
+	margin-bottom: 100px;
+	font-size: 48px !important;
+	font-weight: 400;
+	color: #1ec0ff;
+}
+.scroll p, .scroll i{
+	font-size: 18px;
+	font-weight: 400;
+	color: #bbbbbb;
+}
+.scroll a i{
+	color: #f2f2f0;
+}
+/*banner end*/
+
+/*kid1 start*/
+.c-h1{
+	font-size: 30px;
+	font-weight: 700;
+	color: #333333;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin-top: 100px;
+}
+.c-hr{
+	border-top: 5px dashed #ffffff;
+	width: 220px;
+}
+.k-contant{
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+.k-contant h3{
+	font-size: 24px;
+	font-weight: 700;
+	color: #333333;
+}
+.k-contant hr{
+	width: 170px;
+	margin-left: 0;
+}
+.k-contant p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #333333;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+.btn-disco{
+	width: 200px;
+}
+.k-img{
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+.k-img img{
+	border-radius: 20px;
+}
+/*kid1 end*/
+/*over lay start*/
+.overlay{
+	background-image: url(../images/bg2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 100px;
+}
+.round a img{
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	margin-top: 60px;
+	transition: all .35s ease;
+}
+.t-p{
+	font-size: 24px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.round img:hover {
+	color: #eb751d;
+}
+/*over lay end*/
+/*courses start*/
+.b-radius{
+	padding-bottom: 60px;
+}
+.b-bg {
+	background-color: #1ec0ff;
+}
+.card-header{
+	color: #ffffff;
+}
+.c-block{
+	font-size: 18px;
+    position: relative;
+    margin: 0;
+    padding: 18px;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+.profile{
+	position: absolute;
+    top: -23px;
+    right: 11px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 55px;
+    height: 55px;
+    margin: 0;
+    border-radius: 50%;
+}
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.c-block h4{
+	color: #1ec0ff;
+}
+.c-text{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	clear: both;
+    margin-top: 10px;
+}
+.c-footer{
+	font-size: 18px;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 15px 20px;
+    color: black;
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+.a-color h4{
+	color: #333333;
+}
+.b-bg2{
+	background-color: #56d47e;
+}
+.t-color{
+	color: #56d47e;
+	padding-bottom: 27px;
+}
+.b-bg3{
+	background-color: #f05c5c;
+}
+.b-bg4{
+	background-color: #ffd338;
+}
+.a-pd{
+	padding-bottom: 27px;
+}
+.b-p{
+	padding-bottom: 100px;
+}
+/*courses end*/
+
+/*portfolio start*/
+.portfolio{
+	background-image: url(../images/portfolio.png);
+}
+.b-p1{
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+.bdr img{
+	margin-bottom: 30px;
+	border-radius: 7%;
+}
+.btn-center{
+	width: 200px;
+	margin-bottom: 100px;
+}
+/*portfolio end*/
+
+/*teacher start*/
+.teacher{
+	margin: 100px 0;
+}
+.t-img i{
+	font-size: 40px;
+	font-weight: 400;
+}
+.c-w{
+	margin-bottom: 50px;
+}
+.stand{
+	margin-bottom: 25px;
+	border-radius: 10% !important;
+}
+.lg, .ja, .jd, .pr{
+	font-size: 24px;
+	font-weight: 700;
+	color: #1ec0ff;
+}
+.follow{
+	font-size: 18px;
+	font-weight: 700;
+}
+.ja{
+	color: #56d47e;
+}
+.jd{
+	color: #f05c5c;
+}
+.pr{
+	color: #ffd338;
+}
+/*teacher end*/
+/*overtime start*/
+.overtime{
+	background-color: #6e6e6e;
+	background-image: url(../images/23.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.o-bg{
+	padding-bottom: 85px;
+}
+.w-title{
+	color: #b0ebc3;
+}
+.number p{
+	font-size: 60px;
+	font-weight: 700;
+	color: #000000;
+	margin-bottom: -20px !important;
+}
+.number small{
+	font-size: 24px;
+	font-weight: 400;
+	color: #000000;
+	text-transform: uppercase;
+}
+/*overtime start*/
+/*timeline start*/
+.timeline{
+	padding-top: 70px;
+}
+.c-m{
+	margin-left: 0 !important;
+}
+.mt-3, .mt-1{
+	font-size: 22px;
+	font-weight: 700;
+}
+.media-body span {
+	color: #1ec0ff;
+}
+.media-body a{
+	color: #fb9130;
+	text-transform: uppercase;
+}
+
+.co-b{
+	color: #1ec0ff !important;
+}
+/*timeline end*/
+/*footer info start*/
+.fbg{
+	background-image: url(../images/fimg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.c-h2{
+	font-size: 24px;
+	font-weight: 700;
+	color: #ffc852;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.t-p{
+	margin-top: 35px;
+}
+.m-same{
+	margin-bottom: 5px !important;
+}
+.h3{
+	color: #56d47e !important;
+}
+.pa{
+	margin-top: 35px;
+}
+.h4{
+	color: #f05c5c !important;
+}
+.my-4 span{
+	color: #1ec0ff;
+}
+.mr-3{
+	color: #ffffff;
+}
+.with input{
+	width: 255px;
+	position: absolute;
+	background: transparent;
+    border: 0;
+    outline: 0;
+}
+.social-link{
+	margin-top: 75px;
+	color: #ffffff;
+}
+/*footer info end*/
+
+/*footer start*/
+.footer{
+	background-color: #ffd338;
+}
+.f-menu span{
+	padding: 15px 7px 0;
+	color: #ffffff;
+}
+.f-menu span a{
+	font-size: 18px;
+	padding-top: 15px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.f-copy{
+	padding-top: 15px;
+	color: #ffffff;
+}
+/*footer end*/
